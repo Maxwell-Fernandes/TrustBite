@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import * as React from "react"
+import { Button } from "../ui/button";
 import { Search } from "lucide-react";
 
 const Hero = () => {

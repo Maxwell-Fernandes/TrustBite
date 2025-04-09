@@ -1,6 +1,7 @@
+import * as React from "react"
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 import { Search, Menu, X } from "lucide-react";
 
 const Navbar = () => {

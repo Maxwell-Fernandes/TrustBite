@@ -1,14 +1,15 @@
+import * as React from "react"
 import { useState } from "react";
-import Layout from "@/components/Layout";
-import ProductCard, { Product } from "@/components/products/ProductCard";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import Layout from "../components/Layout";
+import ProductCard, { Product } from "../components/products/ProductCard";
+import { Input } from "../components/ui/input";
+import { Button } from "../components/ui/button";
 import { 
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "../components/ui/accordion";
 import { Search, Sliders } from "lucide-react";
 
 // Mock data for products
