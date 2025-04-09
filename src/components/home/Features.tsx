@@ -1,3 +1,4 @@
+import * as React from "react"
 import { Check, Shield, FileSearch, Star } from "lucide-react";
 
 const features = [

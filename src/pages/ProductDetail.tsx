@@ -1,14 +1,15 @@
+import * as React from "react"
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import Layout from "@/components/Layout";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import Layout from "../components/Layout";
+import { Button } from "../components/ui/button";
+import { Badge } from "../components/ui/badge";
 import { 
   Tabs, 
   TabsContent, 
   TabsList, 
   TabsTrigger 
-} from "@/components/ui/tabs";
+} from "../components/ui/tabs";
 import { Star, Shield, AlertTriangle, Bookmark } from "lucide-react";
 
 // Mock data for a single product

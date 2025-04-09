@@ -1,9 +1,10 @@
+import * as React from "react"
 import { useState } from "react";
-import Layout from "@/components/Layout";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+import Layout from "../components/Layout";
+import { Input } from "../components/ui/input";
+import { Button } from "../components/ui/button";
 import { Search as SearchIcon, Loader2 } from "lucide-react";
-import ProductCard, { Product } from "@/components/products/ProductCard";
+import ProductCard, { Product } from "../components/products/ProductCard";
 
 // Mock product data
 const mockProducts: Product[] = [
